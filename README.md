@@ -92,5 +92,4 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
 
 
 ## RESULT
-
-*(Summarize observations and conclusions here)*
+Thus the frequency response of Digital fiber optic link has been verified sucessfully
