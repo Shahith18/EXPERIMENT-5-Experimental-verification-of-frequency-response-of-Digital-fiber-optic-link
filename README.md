@@ -5,7 +5,7 @@
 ## AIM
 To analyze the relationship between input and received signal of a 600nm fiber optic cable using digital link.
 
----
+
 
 ## EQUIPMENTS REQUIRED
 - Fiber optic trainer kit ST 2502  
@@ -14,7 +14,6 @@ To analyze the relationship between input and received signal of a 600nm fiber o
 - CRO (Cathode Ray Oscilloscope)  
 - 660 nm fiber cable  
 
----
 
 ## THEORY
 ```
@@ -30,6 +29,7 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
 ```
 
 ## PROCEDURE
+
 ```
 	Refer to the block diagram & carry out the following connections and settings.
 	Connect the power supply with proper polarity to the kit link-B and switch it on.
@@ -41,6 +41,7 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
 	Keep Jumpers JP6 shorted.
 	Keep Jumper JP8 towards Pulse position.
 	Feed TTL Square wave signal of 1KHz from the function generator to the IN post of Digital Buffer. 
+
 ```
 <img width="807" height="292" alt="image" src="https://github.com/user-attachments/assets/ab895dc0-8c9c-4847-b679-866845aac564" />
 
@@ -52,8 +53,8 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
 ```
 
 <img width="814" height="295" alt="image" src="https://github.com/user-attachments/assets/781e1581-646a-40a3-a1e5-a7d2dc43aa85" />
-```
 
+```
 	To measure the digital bandwidth of the phototransistor vary the input signal frequency and observe the detected signal at various frequencies.
 	Determine the frequency at which the detector stops recovering the signal. This determines the max. bit rate on the digital link.
 	Keep switch SW9 towards TX2 position.
@@ -68,7 +69,6 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
 
 *(Insert block diagram here)*
 
----
 <img width="838" height="303" alt="image" src="https://github.com/user-attachments/assets/2192c1ff-c4df-44a3-9349-f5bf981b7af6" />
 
 
@@ -78,7 +78,7 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
 
 ![WhatsApp Image 2025-11-16 at 15 38 23_615d6ca9](https://github.com/user-attachments/assets/7e9da357-9c4b-4bda-8894-7f02c0fc2bf6)
 
----
+
 
 ## MODEL GRAPH
 
@@ -86,7 +86,6 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
 ![WhatsApp Image 2025-11-16 at 15 38 27_e4f56f15](https://github.com/user-attachments/assets/c3a870b0-2714-42cf-9533-c071515e8e4b)
 
 
----
 ## GRAPH
 ![WhatsApp Image 2025-11-16 at 15 39 10_cdb6a5f4](https://github.com/user-attachments/assets/8cfe56ba-5dcd-484a-b25d-244a1f11f524)
 
